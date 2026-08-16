@@ -24,7 +24,7 @@ export type { ParsedPath, PathObject } from "./internal";
  * @param ruta - Path to process.
  * @returns The parent directory.
  */
-export function dirname(ruta: string): string {
+export function directorio(ruta: string): string {
     return getDirname(ruta);
 }
 
@@ -34,7 +34,7 @@ export function dirname(ruta: string): string {
  * @param extension - Optional extension to remove.
  * @returns The base name.
  */
-export function basename(ruta: string, extension?: string): string {
+export function nombreBase(ruta: string, extension?: string): string {
     return getBasename(ruta, extension);
 }
 
@@ -43,7 +43,7 @@ export function basename(ruta: string, extension?: string): string {
  * @param ruta - Path to process.
  * @returns The extension (including the dot).
  */
-export function extname(ruta: string): string {
+export function extension(ruta: string): string {
     return getExtname(ruta);
 }
 

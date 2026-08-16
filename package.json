@@ -1,6 +1,6 @@
 {
   "name": "rutas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dischord programming language library",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -17,7 +17,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "commander": "^15.0.0",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   },
